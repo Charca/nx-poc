@@ -21,5 +21,39 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "dashboard": {
+      "tags": []
+    },
+    "dashboard-e2e": {
+      "tags": [],
+      "implicitDependencies": ["dashboard"]
+    },
+    "mailbox": {
+      "tags": []
+    },
+    "mailbox-e2e": {
+      "tags": [],
+      "implicitDependencies": ["mailbox"]
+    },
+    "reports": {
+      "tags": []
+    },
+    "reports-e2e": {
+      "tags": [],
+      "implicitDependencies": ["reports"]
+    },
+    "common-utils": {
+      "tags": []
+    },
+    "common-components": {
+      "tags": []
+    },
+    "common-constants": {
+      "tags": []
+    },
+    "hsds": {
+      "tags": []
+    }
+  }
 }
