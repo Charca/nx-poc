@@ -25,11 +25,7 @@
         "enforceBuildableLibDependency": true,
         "allow": [],
         "depConstraints": [
-          // { "sourceTag": "*", "onlyDependOnLibsWithTags": ["*"] },
-          {
-            "sourceTag": "legacy",
-            "onlyDependOnLibsWithTags": ["legacy", "shared"]
-          }
+          { "sourceTag": "*", "onlyDependOnLibsWithTags": ["*"] }
         ]
       }
     ]

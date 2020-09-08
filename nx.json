@@ -44,7 +44,7 @@
       "implicitDependencies": ["reports"]
     },
     "common-utils": {
-      "tags": ["shared"]
+      "tags": []
     },
     "common-constants": {
       "tags": []
@@ -56,14 +56,14 @@
       "tags": []
     },
     "docs": {
-      "tags": ["legacy"]
+      "tags": []
     },
     "docs-e2e": {
       "tags": [],
       "implicitDependencies": ["docs"]
     },
     "common-legacy": {
-      "tags": ["legacy"]
+      "tags": []
     }
   }
 }
