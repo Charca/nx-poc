@@ -4,6 +4,11 @@ import { ReactComponent as Logo } from './logo.svg';
 import star from './star.svg';
 
 import { Route, Link } from 'react-router-dom';
+
+import { Header } from '@helpscout-js/common/components';
+import { Avatar } from '@helpscout-js/hsds';
+import { add } from '@helpscout-js/common/utils';
+
 const StyledApp = styled.div`
   font-family: sans-serif;
   min-width: 300px;
@@ -140,10 +145,13 @@ export const App = () => {
    */
   return (
     <StyledApp>
+      <Header />
       <header className="flex">
         <Logo width="75" height="75" />
         <h1>Welcome to mailbox!</h1>
       </header>
+      <Avatar />
+      <p>2 + 2 = {add(2, 2)}</p>
       <main>
         <h2>Resources &amp; Tools</h2>
         <p>Thank you for using and showing some ♥ for Nx.</p>

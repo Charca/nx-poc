@@ -4,6 +4,9 @@ import { ReactComponent as Logo } from './logo.svg';
 import star from './star.svg';
 
 import { Route, Link } from 'react-router-dom';
+
+import { Header } from '@helpscout-js/common/components';
+
 const StyledApp = styled.div`
   font-family: sans-serif;
   min-width: 300px;
@@ -140,6 +143,7 @@ export const App = () => {
    */
   return (
     <StyledApp>
+      <Header />
       <header className="flex">
         <Logo width="75" height="75" />
         <h1>Welcome to reports!</h1>

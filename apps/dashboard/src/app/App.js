@@ -2,6 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 import { ReactComponent as Logo } from './logo.svg';
 import star from './star.svg';
+
+import { Header } from '@helpscout-js/common/components';
+import { Button } from '@helpscout-js/hsds';
+import { API_URL } from '@helpscout-js/common/constants';
+
 const StyledApp = styled.div`
   font-family: sans-serif;
   min-width: 300px;
@@ -138,10 +143,13 @@ export const App = () => {
    */
   return (
     <StyledApp>
+      <Header />
       <header className="flex">
         <Logo width="75" height="75" />
         <h1>Welcome to dashboard!</h1>
       </header>
+      <Button />
+      <p>API_URL is {API_URL}</p>
       <main>
         <h2>Resources &amp; Tools</h2>
         <p>Thank you for using and showing some ♥ for Nx.</p>
