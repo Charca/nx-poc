@@ -1,9 +1,9 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import Hsds from './hsds';
-describe('Hsds', () => {
+import Button from './button';
+describe('Button', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<Hsds />);
+    const { baseElement } = render(<Button />);
     expect(baseElement).toBeTruthy();
   });
 });
