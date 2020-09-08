@@ -19,7 +19,10 @@
       "@helpscout-js/common/utils": ["libs/common/utils/src/index.js"],
       "@helpscout-js/common/constants": ["libs/common/constants/src/index.js"],
       "@helpscout-js/hsds": ["libs/hsds/src/index.js"],
-      "@helpscout-js/common/components": ["libs/common/components/src/index.js"]
+      "@helpscout-js/common/components": [
+        "libs/common/components/src/index.js"
+      ],
+      "@helpscout-js/common/legacy": ["libs/common/legacy/src/index.js"]
     }
   },
   "exclude": ["node_modules", "tmp"]
